@@ -1,4 +1,4 @@
-# VOLT — Sistem Tagihan Listrik & Pengaduan Gangguan
+# VOLT — Sistem Tagihan Listrik 
 
 > Aplikasi desktop berbasis **Java Swing + MySQL** dengan arsitektur **MVC** untuk mengelola tagihan listrik, pembayaran, dan pengaduan gangguan pelanggan.
 
