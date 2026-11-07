@@ -30,7 +30,7 @@
 ## 2. Deskripsi Singkat
 
 VOLT membantu penyedia layanan listrik mengelola proses dari ujung ke ujung dalam satu aplikasi:
-**petugas lapangan** mencatat meter dan membuat tagihan,** pelanggan** melihat dan membayar tagihan, **kasir** memproses pembayaran tunai, dan **admin** mengelola data master serta memantau statistik. Pelanggan juga dapat melaporkan gangguan listrik (lengkap dengan koordinat lokasi yang bisa dipilih di peta), lalu petugas lapangan memperbarui status penanganannya.
+**petugas lapangan** mencatat meter dan membuat tagihan, **pelanggan** melihat dan membayar tagihan, **kasir** memproses pembayaran tunai, dan **admin** mengelola data master serta memantau statistik. Pelanggan juga dapat melaporkan gangguan listrik (lengkap dengan koordinat lokasi yang bisa dipilih di peta), lalu petugas lapangan memperbarui status penanganannya.
 
 Aplikasi memiliki **4 peran**: **Admin**, **Kasir**, **Petugas Lapangan**, dan **Pelanggan** (Rumah Tangga / Usaha). Menu yang tampil mengikuti peran akun yang login.
 
