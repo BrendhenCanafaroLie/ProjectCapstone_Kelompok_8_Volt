@@ -30,7 +30,7 @@
 ## 2. Deskripsi Singkat
 
 VOLT membantu penyedia layanan listrik mengelola proses dari ujung ke ujung dalam satu aplikasi:
-**petugas lapangan** mencatat meter dan membuat tagihan,** pelanggan** melihat dan membayar tagihan, **kasir** memproses pembayaran tunai, dan **admin** mengelola data master serta memantau statistik. Pelanggan juga dapat melaporkan gangguan listrik (lengkap dengan koordinat lokasi yang bisa dipilih di peta), lalu petugas lapangan memperbarui status penanganannya.
+**petugas lapangan** mencatat meter dan membuat tagihan, **pelanggan** melihat dan membayar tagihan, **kasir** memproses pembayaran tunai, dan **admin** mengelola data master serta memantau statistik. Pelanggan juga dapat melaporkan gangguan listrik (lengkap dengan koordinat lokasi yang bisa dipilih di peta), lalu petugas lapangan memperbarui status penanganannya.
 
 Aplikasi memiliki **4 peran**: **Admin**, **Kasir**, **Petugas Lapangan**, dan **Pelanggan** (Rumah Tangga / Usaha). Menu yang tampil mengikuti peran akun yang login.
 
@@ -233,28 +233,8 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a9a06c8-8fea-4cd9-870e-ebe884556f60" /> 
 
-### DASHBOARD
-
-**1. Admin Dasboard**
-<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/ce38c0c9-2011-4648-81ff-2d38bad1204a" />
-
- **2. Admin Menu Petugas**
- <img width="1622" height="888" alt="image" src="https://github.com/user-attachments/assets/39172d83-1d5e-4057-9e3a-45074d6e97ae" />
- 
-**3. Admin Golongan**
-<img width="1627" height="891" alt="image" src="https://github.com/user-attachments/assets/43da04ed-f267-476d-ae2f-34f78e6d09dd" />
-
-**4. Admin Menu Registrasi**
-<img width="1627" height="887" alt="image" src="https://github.com/user-attachments/assets/d07610a8-82c5-4ecf-bd40-d36b14ae639a" />
-
-**5. Admin Menu Pembayaran**
-<img width="1626" height="885" alt="image" src="https://github.com/user-attachments/assets/65b50e7f-6455-4c96-b86f-3866c54567b3" />
-
-**6. Admin Menu Pengaduan**
-<img width="1625" height="888" alt="image" src="https://github.com/user-attachments/assets/7f34d9c3-ba7d-4d35-a9b2-afa5edf43182" />
-
 **7. Profile Admin**
-<img width="1912" height="1017" alt="image" src="https://github.com/user-attachments/assets/34a16ce4-024b-4772-a90a-d972f06d001b" />|
+<img width="1912" height="1017" alt="image" src="https://github.com/user-attachments/assets/34a16ce4-024b-4772-a90a-d972f06d001b" />
 
 
 ### PETUGAS LAPANGAN
@@ -268,7 +248,7 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 #### Detail Tagihan 
 
-<img width="613" height="577" alt="image" src="https://github.com/user-attachments/assets/574fe956-1795-4ef7-9bcb-0853eb7bf7d7" />|
+<img width="613" height="577" alt="image" src="https://github.com/user-attachments/assets/574fe956-1795-4ef7-9bcb-0853eb7bf7d7" />
 
 #### Perbarui Status Pengaduan
 <img width="1630" height="886" alt="image" src="https://github.com/user-attachments/assets/078d575a-5a16-4fc7-b59d-b9276f81dd98" />
@@ -320,7 +300,6 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 #### Profile Pelanggan
 <img width="770" height="626" alt="image" src="https://github.com/user-attachments/assets/e2f921d8-49f4-41b6-9fc7-9c86832eb8c5" />
 
-> Daftar lengkap nama file screenshot ada di [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
 ---
 
@@ -336,6 +315,6 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 ---
 
 ## 10. Lampiran
-1. Lampiran 1 - **Berkas Google Drive**	- Buka di Google Drive
-2. Lampiran 2 - **Dokumen Word (OneDrive)**	- Buka di OneDrive
-3. Lampiran 3 - **Desain Canva** - Buka di Canva
+1. Lampiran 1 - **Berkas Google Drive**	- https://drive.google.com/drive/folders/1LK5X1ATwIGfWjITccuL2EtRwihfzbh43?usp=sharing
+2. Lampiran 2 - **Dokumen Word (OneDrive)**	- [Buka di OneDrive](https://1drv.ms/w/c/e585da04d11cfd29/IQB2t-6yOZSdT79fIfG4fwq1AbCnmXLbkeyV_vIAZNUpdSQ?e=jPrRmZ)
+3. Lampiran 3 - **Desain Canva** - [Buka di Canva](https://canva.link/2p5quy23ry97f3u)
