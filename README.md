@@ -30,7 +30,7 @@
 ## 2. Deskripsi Singkat
 
 VOLT membantu penyedia layanan listrik mengelola proses dari ujung ke ujung dalam satu aplikasi:
-**petugas lapangan** mencatat meter dan membuat tagihan, **pelanggan** melihat dan membayar tagihan, **kasir** memproses pembayaran tunai, dan **admin** mengelola data master serta memantau statistik. Pelanggan juga dapat melaporkan gangguan listrik (lengkap dengan koordinat lokasi yang bisa dipilih di peta), lalu petugas lapangan memperbarui status penanganannya.
+**petugas lapangan** mencatat meter dan membuat tagihan,** pelanggan** melihat dan membayar tagihan, **kasir** memproses pembayaran tunai, dan **admin** mengelola data master serta memantau statistik. Pelanggan juga dapat melaporkan gangguan listrik (lengkap dengan koordinat lokasi yang bisa dipilih di peta), lalu petugas lapangan memperbarui status penanganannya.
 
 Aplikasi memiliki **4 peran**: **Admin**, **Kasir**, **Petugas Lapangan**, dan **Pelanggan** (Rumah Tangga / Usaha). Menu yang tampil mengikuti peran akun yang login.
 
@@ -138,8 +138,7 @@ Berikut adalah penjelasan tentang fungsi dari masing-masing package:
 Atribut dideklarasikan `private` dan hanya diakses lewat *getter/setter*; data tidak diubah langsung dari luar kelas.
 Validasi input dipusatkan di controller, bukan di View.
 
-
-
+<img width="575" height="212" alt="image" src="https://github.com/user-attachments/assets/3d503ff5-4017-46f9-9318-dfe7e1df3851" />
 
 
 ### 7.2 Pewarisan (Inheritance)
@@ -148,21 +147,26 @@ Kelas turunan memakai ulang atribut dan perilaku induknya.
 - **Model:** `Pengguna → Karyawan → Admin / Kasir / PetugasLapangan` dan `Pengguna → Pelanggan → PelangganRumahTangga / PelangganUsaha`.
 - **Lapisan lain:** `BaseDao` (koneksi & penanganan error JDBC) diwarisi semua DAO; `BaseController` (validasi umum: `isi`, `angka`, `uang`, `tanggal`, `telepon`) diwarisi semua controller; `BasePanel → BaseMenuPanel` diwarisi semua panel menu.
 
+<img width="1052" height="826" alt="image" src="https://github.com/user-attachments/assets/edaa0f84-04bb-4374-a1c7-e2ccd4e40892" />
 
 
+<img width="1368" height="518" alt="image" src="https://github.com/user-attachments/assets/4cbebf4e-df38-471c-9205-c042a8fbf4df" />
 
 
 ### 7.3 Polimorfisme (Polymorphism)
 Satu pemanggilan metode menghasilkan perilaku berbeda sesuai tipe objeknya.
 
+<img width="647" height="152" alt="image" src="https://github.com/user-attachments/assets/b9d4363c-6590-44c3-afa2-ee70394539e7" />
 
 
+<img width="997" height="118" alt="image" src="https://github.com/user-attachments/assets/726e30f2-d5b2-44e3-b446-7b8f02ef90a4" />
 
 
 Contoh lain: `getJenis()`, `getKeterangan()`, `getDetail()` dan `cetak()` yang diimplementasi berbeda di tiap kelas.
 
 ### 7.4 Abstraksi (Abstraction)
 Detail disembunyikan di balik **kelas abstrak** dan **interface** yang hanya mendefinisikan kontrak.
+<img width="351" height="126" alt="image" src="https://github.com/user-attachments/assets/7262ac4f-47b2-4d18-afb5-d57c6a12df58" />
 
 | Jenis | Nama | Fungsi |
 |---|---|---|
@@ -171,9 +175,6 @@ Detail disembunyikan di balik **kelas abstrak** dan **interface** yang hanya men
 | Interface | `CrudDao<T, ID>` | Kontrak CRUD generik (`insert`, `update`, `delete`, `findById`, `findAll`) |
 | Interface | `Cetakable` | Kontrak objek yang bisa dicetak sebagai teks (`Tagihan`, `Pembayaran`, `Pengaduan`) |
 | Interface | `Refreshable` | Kontrak panel yang dapat memuat ulang data (`muat()`) |
-
-
-
 
 ---
 
@@ -211,32 +212,42 @@ Detail disembunyikan di balik **kelas abstrak** dan **interface** yang hanya men
 #### Halaman awal
 | Menu Utama | Login | Daftar |
 |---|---|---|
-| ![Menu Utama](docs/screenshots/01-menu-utama.png) | ![Login](docs/screenshots/02-login.png) | ![Daftar](docs/screenshots/03-daftar.png) |
+| ![Menu Utama]<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/af6eca15-2dd9-43ed-a488-eb836bfcc8c1" />
+ |! [Login]<img width="1911" height="1018" alt="image" src="https://github.com/user-attachments/assets/bcca2bed-70ec-419e-bf81-7f21e17e5a9d" />
+ | ![Daftar]<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/c39eb568-6fce-4586-900f-99bbb6558f64" />
+ |
 
 Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**; akun berstatus *Menunggu* sampai disetujui admin.
 
 #### Admin
-1. **Dashboard** — kartu angka ringkasan dan tab tabel rincian.
-2. **Data Petugas** — tambah/ubah/hapus kasir & petugas lapangan, atur status setoran kasir.
-3. **Golongan Tarif** — kelola tarif per kWh dan biaya beban.
-4. **Registrasi Pengguna** — setujui atau tolak pendaftar.
-5. **Riwayat Pembayaran** dan **Laporan Pengaduan** — pantau seluruh transaksi dan laporan.
+1. **Dashboard** <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/d170ecfe-0d2b-4ff8-8755-cad4a58cec4b" />
+2. **Data Petugas** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/169c06f6-02d4-4bd1-81e1-bce332853984" />
+3. **Golongan Tarif** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/c1fb56d7-dd8f-40b5-a32b-38baa33c4963" />
+4. **Registrasi Pengguna** <img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/9e280c62-668d-4e5d-af85-0dee5f7f1618" />
+5. **Riwayat Pembayaran** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/50559588-e651-46f8-86c0-3e953748d8ef" />
+6. **Laporan Pengaduan** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a9a06c8-8fea-4cd9-870e-ebe884556f60" /> 
 
 | Dashboard | Data Petugas |
 |---|---|
-| ![Admin Dashboard](docs/screenshots/10-admin-dashboard.png) | ![Admin Petugas](docs/screenshots/11-admin-petugas.png) |
+| ![Admin Dashboard]<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/ce38c0c9-2011-4648-81ff-2d38bad1204a" />
+ | ![Admin Petugas]<img width="1622" height="888" alt="image" src="https://github.com/user-attachments/assets/39172d83-1d5e-4057-9e3a-45074d6e97ae" />
+ |
 
 | Golongan Tarif | Registrasi Pengguna |
 |---|---|
-| ![Admin Golongan](docs/screenshots/12-admin-golongan.png) | ![Admin Registrasi](docs/screenshots/13-admin-registrasi.png) |
+| ![Admin Golongan]<img width="1627" height="891" alt="image" src="https://github.com/user-attachments/assets/43da04ed-f267-476d-ae2f-34f78e6d09dd" />
+ | ![Admin Registrasi]<img width="1627" height="887" alt="image" src="https://github.com/user-attachments/assets/d07610a8-82c5-4ecf-bd40-d36b14ae639a" />
+ |
 
 | Riwayat Pembayaran | Laporan Pengaduan |
 |---|---|
-| ![Admin Pembayaran](docs/screenshots/14-admin-pembayaran.png) | ![Admin Pengaduan](docs/screenshots/15-admin-pengaduan.png) |
+| ![Admin Pembayaran]<img width="1626" height="885" alt="image" src="https://github.com/user-attachments/assets/65b50e7f-6455-4c96-b86f-3866c54567b3" />
+ | ![Admin Pengaduan]<img width="1625" height="888" alt="image" src="https://github.com/user-attachments/assets/7f34d9c3-ba7d-4d35-a9b2-afa5edf43182" />
+|
 
 | Profil Admin |
 |---|
-| ![Admin Profil](docs/screenshots/16-admin-profil.png) |
+| ![Admin Profil]<img width="1912" height="1017" alt="image" src="https://github.com/user-attachments/assets/34a16ce4-024b-4772-a90a-d972f06d001b" />|
 
 #### Petugas Lapangan
 1. **Membuat tagihan** — pilih pelanggan di tabel, isi periode, meter awal/akhir, dan jatuh tempo, lalu **Simpan Tagihan**. kWh dan total dihitung otomatis.
@@ -245,11 +256,14 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 | Membuat Tagihan | Detail Tagihan Pelanggan |
 |---|---|
-| ![Buat Tagihan](docs/screenshots/30-petugas-buat-tagihan.png) | ![Detail Tagihan](docs/screenshots/31-petugas-detail-tagihan.png) |
+| ![Buat Tagihan]<img width="1627" height="890" alt="image" src="https://github.com/user-attachments/assets/fc4c69f8-bfc2-4520-a8de-32c5d6c7e131" />
+ | ![Detail Tagihan]<img width="613" height="577" alt="image" src="https://github.com/user-attachments/assets/574fe956-1795-4ef7-9bcb-0853eb7bf7d7" />|
 
 | Status Pengaduan | Profil Petugas |
 |---|---|
-| ![Status Pengaduan](docs/screenshots/32-petugas-status-pengaduan.png) | ![Profil Petugas](docs/screenshots/33-petugas-profil.png) |
+| ![Status Pengaduan]<img width="1630" height="886" alt="image" src="https://github.com/user-attachments/assets/078d575a-5a16-4fc7-b59d-b9276f81dd98" />
+ | ![Profil Petugas]<img width="772" height="575" alt="image" src="https://github.com/user-attachments/assets/070ff365-17c5-400f-aa9b-a71aaebd9dea" />
+ |
 
 #### Kasir
 1. **Transaksi** — cari tagihan belum lunas, pilih, lalu **Proses Pembayaran** (tunai).
@@ -257,12 +271,14 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 | Transaksi | Bukti Pembayaran |
 |---|---|
-| ![Kasir Transaksi](docs/screenshots/20-kasir-transaksi.png) | ![Kasir Bukti](docs/screenshots/21-kasir-bukti.png) |
-
+| ![Kasir Transaksi]<img width="1630" height="890" alt="image" src="https://github.com/user-attachments/assets/627d52e8-9a76-4c5a-8340-569c51b2cde9" />
+ | ![Kasir Bukti]<img width="616" height="657" alt="image" src="https://github.com/user-attachments/assets/14380149-4fe6-4a56-ba8a-3addfc7e07b9" />
+ |
 | Riwayat Transaksi |
 |---|
-| ![Kasir Riwayat](docs/screenshots/22-kasir-riwayat.png) |
-
+| ![Kasir Riwayat]<img width="1623" height="877" alt="image" src="https://github.com/user-attachments/assets/5d78b2c8-9f95-40ed-991b-382b708307c2" />
+ |
+ 
 #### Pelanggan
 1. **Beranda** — ringkasan pemakaian dan tagihan; tombol pintas *Lapor gangguan* & *Bayar tagihan*.
 2. **Tagihan & Riwayat kWh** — pilih tagihan lalu **Bayar Tagihan Terpilih**, konfirmasi pembayaran.
@@ -270,20 +286,24 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 | Beranda | Tagihan & Riwayat kWh |
 |---|---|
-| ![Beranda](docs/screenshots/40-pelanggan-beranda.png) | ![Tagihan](docs/screenshots/41-pelanggan-tagihan.png) |
-
+| ![Beranda]<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/8693c1b8-7631-488e-b73e-0f05f103c16c" />
+| ![Tagihan]<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/77650279-af83-420e-a1d1-a2576dfd3c09" />
+|
 | Konfirmasi Pembayaran | Lapor Gangguan |
 |---|---|
-| ![Konfirmasi Bayar](docs/screenshots/42-pelanggan-konfirmasi-bayar.png) | ![Lapor Gangguan](docs/screenshots/43-pelanggan-lapor-gangguan.png) |
-
+| ![Konfirmasi Bayar]<img width="610" height="598" alt="image" src="https://github.com/user-attachments/assets/51e852ec-91a1-428b-81b4-9f3f0a3a9f49" />
+ | ![Lapor Gangguan]<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/b12e2669-1daa-44d8-9a3e-e3a1f42840eb" />
+ |
 | Form Buat Laporan | Pilih Lokasi di Peta |
 |---|---|
-| ![Buat Laporan](docs/screenshots/44-pelanggan-buat-laporan.png) | ![Pilih Peta](docs/screenshots/45-pelanggan-pilih-peta.png) |
-
+| ![Buat Laporan]<img width="816" height="493" alt="image" src="https://github.com/user-attachments/assets/1a506a12-3769-47fc-b11c-dc4a520e77b2" />
+ | ![Pilih Peta]<img width="1016" height="826" alt="image" src="https://github.com/user-attachments/assets/1a954706-71e2-4aba-bdcc-af08154186e3" />
+ |
 | Profil Pelanggan |
 |---|
-| ![Profil Pelanggan](docs/screenshots/46-pelanggan-profil.png) |
-
+| ![Profil Pelanggan]<img width="770" height="626" alt="image" src="https://github.com/user-attachments/assets/e2f921d8-49f4-41b6-9fc7-9c86832eb8c5" />
+ |
+ 
 > Daftar lengkap nama file screenshot ada di [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
 ---
