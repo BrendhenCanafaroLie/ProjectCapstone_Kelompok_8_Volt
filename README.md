@@ -125,15 +125,6 @@ Berikut adalah penjelasan tentang fungsi dari masing-masing package:
 
 ## 7. Penerapan 4 Pilar OOP
 
-### Penerapan 4 Pilar OOP pada VOLT
-
-> Dokumen ini menjelaskan bagaimana **Enkapsulasi, Pewarisan, Polimorfisme, dan Abstraksi** diterapkan pada kode VOLT.
-> Kembali ke [README utama](../README.md).
-
-**Daftar isi:** [Hierarki kelas](#hierarki-kelas-utama) · [1. Enkapsulasi](#1-enkapsulasi-encapsulation) · [2. Pewarisan](#2-pewarisan-inheritance) · [3. Polimorfisme](#3-polimorfisme-polymorphism) · [4. Abstraksi](#4-abstraksi-abstraction)
-
----
-
 ### 7.1 Enkapsulasi (Encapsulation)
 Atribut dideklarasikan `private` dan hanya diakses lewat *getter/setter*; data tidak diubah langsung dari luar kelas.
 Validasi input dipusatkan di controller, bukan di View.
