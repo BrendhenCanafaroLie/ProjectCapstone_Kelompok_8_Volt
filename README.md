@@ -1,4 +1,4 @@
-# Project Capstone 
+# PROJECT CAPSTONE
 Mata Kuliah : Pemrograman Berorientasi Objek & Sistem Basis Data
 
 **Kelompok 8 - Volt**
