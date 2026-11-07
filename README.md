@@ -1,7 +1,8 @@
 # Project Capstone 
 Mata Kuliah : Pemrograman Berorientasi Objek & Sistem Basis Data
 
-## Kelompok 8 - Volt
+**Kelompok 8 - Volt**
+
 1. Muhammad Aidil Fadilah     - (2509116032) - Kelas A
 2. Brendhen Canafaro Lie      - (2509116033) - Kelas A
 3. Alisya Octa Noor Ghina     - (2509116017) - Kelas A
