@@ -76,47 +76,36 @@ Diagram dibuat dengan **drawio**, yang memudahkan pembuatan. Pembuatan flowchart
 ### 5.1 Flowchart
 
 **a) Menu Utama**
-
-
+<img width="2502" height="1978" alt="Copy of PROJECT CAPSTONE-Menu Utama  drawio (1)" src="https://github.com/user-attachments/assets/76744f8d-732c-4023-b3fe-37da7a8848e5" />
 
 **b) Admin**
-
-
+<img width="1852" height="2377" alt="Copy of PROJECT CAPSTONE-Admin" src="https://github.com/user-attachments/assets/76f121fd-11ba-4cd4-9687-89880a435b67" />
 
 **c) Admin CRUD Petugas**
-
-
+<img width="1984" height="2247" alt="Copy of PROJECT CAPSTONE-Admin-CRUD Petugas" src="https://github.com/user-attachments/assets/e7be5c49-261b-4c3a-93c3-58125047a3da" />
 
 **d) Admin Dashboard**
-
-
+<img width="1582" height="2167" alt="Copy of PROJECT CAPSTONE-Admin-Dashboard" src="https://github.com/user-attachments/assets/679b3f6a-3fe7-4134-bb73-4f5bf02e6b45" />
 
 **e) Admin CRUD Golongan Tarif**
-
-
+<img width="1964" height="2287" alt="Copy of PROJECT CAPSTONE-Admin-Golongan Tarif" src="https://github.com/user-attachments/assets/2b57471a-b782-40b2-b6ee-e5d9e806d8ec" />
 
 **f) Petugas Lapangan**
-
-
+<img width="3232" height="1897" alt="Copy of PROJECT CAPSTONE-Petugas Lapangan" src="https://github.com/user-attachments/assets/fc50a5ad-d065-43fa-b18a-8a686d9a174e" />
 
 **g) Kasir**
-
-
+<img width="3132" height="1637" alt="Copy of PROJECT CAPSTONE-Kasir" src="https://github.com/user-attachments/assets/09c956c7-451d-4215-8015-26cc8dd6e7cd" />
 
 **h) Pelanggan**
-
-
-
-
+<img width="2792" height="2132" alt="Copy of PROJECT CAPSTONE-Pelanggan" src="https://github.com/user-attachments/assets/b8b34839-6e9a-4cd8-96b8-12169a788760" />
 
 ### 5.2 Use Case Diagram
-
-
+<img width="1931" height="1937" alt="Copy of PROJECT CAPSTONE-USE CASE " src="https://github.com/user-attachments/assets/508efe9b-6eb1-4f28-b3cc-57e5047ad9f8" />
 
 ### 5.3 ERD (Entity Relationship Diagram)
+<img width="1564" height="728" alt="image" src="https://github.com/user-attachments/assets/479672cd-4465-43eb-a899-ee903ee59673" />
 
-
-
+<img width="1600" height="645" alt="image" src="https://github.com/user-attachments/assets/18517329-ba07-414a-9f3e-f67df2e0fd2b" />
 
 ---
 
@@ -303,10 +292,10 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 | No | Nama | NIM | Peran / Kontribusi |
 |---|---|---|---|
-| 1 | Alisya Octa Noor Ghina | 2509116017 | _mis. Perancangan database & DAO_ |
-| 2 | Muhammad Aidil Fadilah | 250911632 | _mis. Controller & logika bisnis_ |
-| 3 | Brendhen Canafaro Lie | 2509116033 | _mis. Desain GUI_ |
-| 4 | Muhammad Kevin Athflayuna | 2509116058 | _mis. Dokumentasi & pengujian_ |
+| 1 | Alisya Octa Noor Ghina | 2509116017 | Perancangan database & ERD, Laporan, dan PPT |
+| 2 | Muhammad Aidil Fadilah | 250911632 | View Pada Program, Laporan, ERD, dan Readme |
+| 3 | Brendhen Canafaro Lie | 2509116033 | Alur Program PBO, Readme, dan ERD |
+| 4 | Muhammad Kevin Athflayuna | 2509116058 | Laporan Flowchart dan Use Case|
 
 ---
 
