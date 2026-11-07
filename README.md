@@ -337,7 +337,7 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 | No | Nama | NIM | Peran / Kontribusi |
 |---|---|---|---|
-| 1 | Alisya Octa Noor Ghina | 2509116017 | Perancangan database & ERD, Laporan, dan PPT |
+| 1 | Alisya Octa Noor Ghina | 2509116017 | Perancangan database & ERD, Laporan, Readme dan PPT |
 | 2 | Muhammad Aidil Fadilah | 250911632 | View Pada Program, Laporan, ERD, dan Readme |
 | 3 | Brendhen Canafaro Lie | 2509116033 | Alur Program PBO, Readme, dan ERD |
 | 4 | Muhammad Kevin Athflayuna | 2509116058 | Laporan Flowchart dan Use Case|
