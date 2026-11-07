@@ -300,15 +300,19 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 <img width="610" height="598" alt="image" src="https://github.com/user-attachments/assets/51e852ec-91a1-428b-81b4-9f3f0a3a9f49" />
 
 **4. Menu Laporan**
+
 <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/b12e2669-1daa-44d8-9a3e-e3a1f42840eb" />
 
 **5. Membuat Laporan**
-<img width="816" height="493" alt="image" src="https://github.com/user-attachments/assets/1a506a12-3769-47fc-b11c-dc4a520e77b2" />
+
+<img width="826" height="490" alt="image" src="https://github.com/user-attachments/assets/946b9b77-cf29-423d-b76c-5824eab9a9c0" />
 
 **6. Lokasi**
+
 <img width="1016" height="826" alt="image" src="https://github.com/user-attachments/assets/1a954706-71e2-4aba-bdcc-af08154186e3" />
 
 **7. Profile Pelanggan**
+
 <img width="770" height="626" alt="image" src="https://github.com/user-attachments/assets/e2f921d8-49f4-41b6-9fc7-9c86832eb8c5" />
 
 
