@@ -125,7 +125,7 @@ Berikut adalah penjelasan tentang fungsi dari masing-masing package:
 
 ## 7. Penerapan 4 Pilar OOP
 
-# Penerapan 4 Pilar OOP pada VOLT
+### Penerapan 4 Pilar OOP pada VOLT
 
 > Dokumen ini menjelaskan bagaimana **Enkapsulasi, Pewarisan, Polimorfisme, dan Abstraksi** diterapkan pada kode VOLT.
 > Kembali ke [README utama](../README.md).
@@ -184,16 +184,11 @@ Detail disembunyikan di balik **kelas abstrak** dan **interface** yang hanya men
 
 1. **Buat database** `volt`, lalu impor file sql:
    
-   
 2. **Atur koneksi** di `src/main/resources/db.properties`:
-
-   
   
 3. **Jalankan program** (pilih salah satu):
-
    
    Di **NetBeans**: *File → Open Project* → pilih folder ini → *Clean and Build* → klik kanan `Main.java` → *Run File*.
-
 
 ### 8.2 Akun uji
 
@@ -209,101 +204,131 @@ Detail disembunyikan di balik **kelas abstrak** dan **interface** yang hanya men
 
 ### 8.3 Jalannya Program
 
-#### Halaman awal
-| Menu Utama | Login | Daftar |
-|---|---|---|
-| ![Menu Utama]<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/af6eca15-2dd9-43ed-a488-eb836bfcc8c1" />
- |! [Login]<img width="1911" height="1018" alt="image" src="https://github.com/user-attachments/assets/bcca2bed-70ec-419e-bf81-7f21e17e5a9d" />
- | ![Daftar]<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/c39eb568-6fce-4586-900f-99bbb6558f64" />
- |
+### HALAMAN AWAL
+
+**1. Menu Utama**
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/af6eca15-2dd9-43ed-a488-eb836bfcc8c1" />
+
+**2. Login**
+<img width="1911" height="1018" alt="image" src="https://github.com/user-attachments/assets/bcca2bed-70ec-419e-bf81-7f21e17e5a9d" />
+
+**3. Daftar**
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/c39eb568-6fce-4586-900f-99bbb6558f64" />
 
 Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**; akun berstatus *Menunggu* sampai disetujui admin.
 
-#### Admin
-1. **Dashboard** <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/d170ecfe-0d2b-4ff8-8755-cad4a58cec4b" />
-2. **Data Petugas** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/169c06f6-02d4-4bd1-81e1-bce332853984" />
-3. **Golongan Tarif** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/c1fb56d7-dd8f-40b5-a32b-38baa33c4963" />
-4. **Registrasi Pengguna** <img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/9e280c62-668d-4e5d-af85-0dee5f7f1618" />
-5. **Riwayat Pembayaran** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/50559588-e651-46f8-86c0-3e953748d8ef" />
-6. **Laporan Pengaduan** <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a9a06c8-8fea-4cd9-870e-ebe884556f60" /> 
+### ADMIN
+**1. Dashboard**
 
-| Dashboard | Data Petugas |
-|---|---|
-| ![Admin Dashboard]<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/ce38c0c9-2011-4648-81ff-2d38bad1204a" />
- | ![Admin Petugas]<img width="1622" height="888" alt="image" src="https://github.com/user-attachments/assets/39172d83-1d5e-4057-9e3a-45074d6e97ae" />
- |
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/d170ecfe-0d2b-4ff8-8755-cad4a58cec4b" />
 
-| Golongan Tarif | Registrasi Pengguna |
-|---|---|
-| ![Admin Golongan]<img width="1627" height="891" alt="image" src="https://github.com/user-attachments/assets/43da04ed-f267-476d-ae2f-34f78e6d09dd" />
- | ![Admin Registrasi]<img width="1627" height="887" alt="image" src="https://github.com/user-attachments/assets/d07610a8-82c5-4ecf-bd40-d36b14ae639a" />
- |
+**2. Data Petugas**
 
-| Riwayat Pembayaran | Laporan Pengaduan |
-|---|---|
-| ![Admin Pembayaran]<img width="1626" height="885" alt="image" src="https://github.com/user-attachments/assets/65b50e7f-6455-4c96-b86f-3866c54567b3" />
- | ![Admin Pengaduan]<img width="1625" height="888" alt="image" src="https://github.com/user-attachments/assets/7f34d9c3-ba7d-4d35-a9b2-afa5edf43182" />
-|
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/169c06f6-02d4-4bd1-81e1-bce332853984" />
 
-| Profil Admin |
-|---|
-| ![Admin Profil]<img width="1912" height="1017" alt="image" src="https://github.com/user-attachments/assets/34a16ce4-024b-4772-a90a-d972f06d001b" />|
+**3. Golongan Tarif**
 
-#### Petugas Lapangan
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/c1fb56d7-dd8f-40b5-a32b-38baa33c4963" />
+
+**4. Registrasi Pengguna** 
+
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/9e280c62-668d-4e5d-af85-0dee5f7f1618" />
+
+**5. Riwayat Pembayaran**
+
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/50559588-e651-46f8-86c0-3e953748d8ef" />
+
+**6. Laporan Pengaduan**
+
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a9a06c8-8fea-4cd9-870e-ebe884556f60" /> 
+
+### DASHBOARD
+
+**1. Admin Dasboard**
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/ce38c0c9-2011-4648-81ff-2d38bad1204a" />
+
+ **2. Admin Menu Petugas**
+ <img width="1622" height="888" alt="image" src="https://github.com/user-attachments/assets/39172d83-1d5e-4057-9e3a-45074d6e97ae" />
+ 
+**3. Admin Golongan**
+<img width="1627" height="891" alt="image" src="https://github.com/user-attachments/assets/43da04ed-f267-476d-ae2f-34f78e6d09dd" />
+
+**4. Admin Menu Registrasi**
+<img width="1627" height="887" alt="image" src="https://github.com/user-attachments/assets/d07610a8-82c5-4ecf-bd40-d36b14ae639a" />
+
+**5. Admin Menu Pembayaran**
+<img width="1626" height="885" alt="image" src="https://github.com/user-attachments/assets/65b50e7f-6455-4c96-b86f-3866c54567b3" />
+
+**6. Admin Menu Pengaduan**
+<img width="1625" height="888" alt="image" src="https://github.com/user-attachments/assets/7f34d9c3-ba7d-4d35-a9b2-afa5edf43182" />
+
+**7. Profile Admin**
+<img width="1912" height="1017" alt="image" src="https://github.com/user-attachments/assets/34a16ce4-024b-4772-a90a-d972f06d001b" />|
+
+
+### PETUGAS LAPANGAN
 1. **Membuat tagihan** — pilih pelanggan di tabel, isi periode, meter awal/akhir, dan jatuh tempo, lalu **Simpan Tagihan**. kWh dan total dihitung otomatis.
 2. **Detail Tagihan Pelanggan** — lihat seluruh riwayat tagihan pelanggan yang dipilih.
 3. **Status pengaduan** — pilih laporan, ubah status, lalu **Perbarui Status**.
 
-| Membuat Tagihan | Detail Tagihan Pelanggan |
-|---|---|
-| ![Buat Tagihan]<img width="1627" height="890" alt="image" src="https://github.com/user-attachments/assets/fc4c69f8-bfc2-4520-a8de-32c5d6c7e131" />
- | ![Detail Tagihan]<img width="613" height="577" alt="image" src="https://github.com/user-attachments/assets/574fe956-1795-4ef7-9bcb-0853eb7bf7d7" />|
+#### Membuat Tagihan
 
-| Status Pengaduan | Profil Petugas |
-|---|---|
-| ![Status Pengaduan]<img width="1630" height="886" alt="image" src="https://github.com/user-attachments/assets/078d575a-5a16-4fc7-b59d-b9276f81dd98" />
- | ![Profil Petugas]<img width="772" height="575" alt="image" src="https://github.com/user-attachments/assets/070ff365-17c5-400f-aa9b-a71aaebd9dea" />
- |
+<img width="1627" height="890" alt="image" src="https://github.com/user-attachments/assets/fc4c69f8-bfc2-4520-a8de-32c5d6c7e131" />
 
-#### Kasir
+#### Detail Tagihan 
+
+<img width="613" height="577" alt="image" src="https://github.com/user-attachments/assets/574fe956-1795-4ef7-9bcb-0853eb7bf7d7" />|
+
+#### Perbarui Status Pengaduan
+<img width="1630" height="886" alt="image" src="https://github.com/user-attachments/assets/078d575a-5a16-4fc7-b59d-b9276f81dd98" />
+
+#### Profile Petugas Lapangan
+<img width="772" height="575" alt="image" src="https://github.com/user-attachments/assets/070ff365-17c5-400f-aa9b-a71aaebd9dea" />
+
+
+### KASIR
 1. **Transaksi** — cari tagihan belum lunas, pilih, lalu **Proses Pembayaran** (tunai).
 2. **Bukti pembayaran** — dapat dicetak ulang dari riwayat.
 
-| Transaksi | Bukti Pembayaran |
-|---|---|
-| ![Kasir Transaksi]<img width="1630" height="890" alt="image" src="https://github.com/user-attachments/assets/627d52e8-9a76-4c5a-8340-569c51b2cde9" />
- | ![Kasir Bukti]<img width="616" height="657" alt="image" src="https://github.com/user-attachments/assets/14380149-4fe6-4a56-ba8a-3addfc7e07b9" />
- |
-| Riwayat Transaksi |
-|---|
-| ![Kasir Riwayat]<img width="1623" height="877" alt="image" src="https://github.com/user-attachments/assets/5d78b2c8-9f95-40ed-991b-382b708307c2" />
- |
+#### Menu Transaksi
+
+<img width="1630" height="890" alt="image" src="https://github.com/user-attachments/assets/627d52e8-9a76-4c5a-8340-569c51b2cde9" />
+
+#### Bukti Transaksi
+
+<img width="616" height="657" alt="image" src="https://github.com/user-attachments/assets/14380149-4fe6-4a56-ba8a-3addfc7e07b9" />
+
+#### Riwayat Transaksi
+<img width="1623" height="877" alt="image" src="https://github.com/user-attachments/assets/5d78b2c8-9f95-40ed-991b-382b708307c2" />
+
  
-#### Pelanggan
+### PELANGGAN
 1. **Beranda** — ringkasan pemakaian dan tagihan; tombol pintas *Lapor gangguan* & *Bayar tagihan*.
 2. **Tagihan & Riwayat kWh** — pilih tagihan lalu **Bayar Tagihan Terpilih**, konfirmasi pembayaran.
 3. **Lapor Gangguan** — **Buat Laporan Baru**, isi lokasi dan deskripsi, tentukan koordinat dengan **Lokasi Saya**, **Pilih di Peta**, atau manual, lalu **Kirim Laporan**. Pantau status di tabel.
 
-| Beranda | Tagihan & Riwayat kWh |
-|---|---|
-| ![Beranda]<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/8693c1b8-7631-488e-b73e-0f05f103c16c" />
-| ![Tagihan]<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/77650279-af83-420e-a1d1-a2576dfd3c09" />
-|
-| Konfirmasi Pembayaran | Lapor Gangguan |
-|---|---|
-| ![Konfirmasi Bayar]<img width="610" height="598" alt="image" src="https://github.com/user-attachments/assets/51e852ec-91a1-428b-81b4-9f3f0a3a9f49" />
- | ![Lapor Gangguan]<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/b12e2669-1daa-44d8-9a3e-e3a1f42840eb" />
- |
-| Form Buat Laporan | Pilih Lokasi di Peta |
-|---|---|
-| ![Buat Laporan]<img width="816" height="493" alt="image" src="https://github.com/user-attachments/assets/1a506a12-3769-47fc-b11c-dc4a520e77b2" />
- | ![Pilih Peta]<img width="1016" height="826" alt="image" src="https://github.com/user-attachments/assets/1a954706-71e2-4aba-bdcc-af08154186e3" />
- |
-| Profil Pelanggan |
-|---|
-| ![Profil Pelanggan]<img width="770" height="626" alt="image" src="https://github.com/user-attachments/assets/e2f921d8-49f4-41b6-9fc7-9c86832eb8c5" />
- |
- 
+#### Beranda
+<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/8693c1b8-7631-488e-b73e-0f05f103c16c" />
+
+#### Menu Tagihan
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/77650279-af83-420e-a1d1-a2576dfd3c09" />
+
+#### Konfirmasi Pembayaran
+
+<img width="610" height="598" alt="image" src="https://github.com/user-attachments/assets/51e852ec-91a1-428b-81b4-9f3f0a3a9f49" />
+
+#### Menu Laporan
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/b12e2669-1daa-44d8-9a3e-e3a1f42840eb" />
+
+#### Membuat Laporan
+<img width="816" height="493" alt="image" src="https://github.com/user-attachments/assets/1a506a12-3769-47fc-b11c-dc4a520e77b2" />
+
+#### Lokasi
+<img width="1016" height="826" alt="image" src="https://github.com/user-attachments/assets/1a954706-71e2-4aba-bdcc-af08154186e3" />
+
+#### Profile Pelanggan
+<img width="770" height="626" alt="image" src="https://github.com/user-attachments/assets/e2f921d8-49f4-41b6-9fc7-9c86832eb8c5" />
+
 > Daftar lengkap nama file screenshot ada di [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
 ---
