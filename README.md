@@ -158,6 +158,7 @@ Contoh lain: `getJenis()`, `getKeterangan()`, `getDetail()` dan `cetak()` yang d
 
 ### 7.4 Abstraksi (Abstraction)
 Detail disembunyikan di balik **kelas abstrak** dan **interface** yang hanya mendefinisikan kontrak.
+
 <img width="351" height="126" alt="image" src="https://github.com/user-attachments/assets/7262ac4f-47b2-4d18-afb5-d57c6a12df58" />
 
 | Jenis | Nama | Fungsi |
@@ -239,66 +240,74 @@ Pilih **Login**, masukkan username & password. Pelanggan baru memilih **Daftar**
 
 
 ### PETUGAS LAPANGAN
-1. **Membuat tagihan** — pilih pelanggan di tabel, isi periode, meter awal/akhir, dan jatuh tempo, lalu **Simpan Tagihan**. kWh dan total dihitung otomatis.
-2. **Detail Tagihan Pelanggan** — lihat seluruh riwayat tagihan pelanggan yang dipilih.
-3. **Status pengaduan** — pilih laporan, ubah status, lalu **Perbarui Status**.
 
-#### Membuat Tagihan
+- **Membuat tagihan** — pilih pelanggan di tabel, isi periode, meter awal/akhir, dan jatuh tempo, lalu **Simpan Tagihan**. kWh dan total dihitung otomatis.
+
+- **Detail Tagihan Pelanggan** — lihat seluruh riwayat tagihan pelanggan yang dipilih.
+
+- **Status pengaduan** — pilih laporan, ubah status, lalu **Perbarui Status**.
+
+**1. Membuat Tagihan**
 
 <img width="1627" height="890" alt="image" src="https://github.com/user-attachments/assets/fc4c69f8-bfc2-4520-a8de-32c5d6c7e131" />
 
-#### Detail Tagihan 
+**2. Detail Tagihan** 
 
 <img width="613" height="577" alt="image" src="https://github.com/user-attachments/assets/574fe956-1795-4ef7-9bcb-0853eb7bf7d7" />
 
-#### Perbarui Status Pengaduan
+**3. Perbarui Status Pengaduan**
+
 <img width="1630" height="886" alt="image" src="https://github.com/user-attachments/assets/078d575a-5a16-4fc7-b59d-b9276f81dd98" />
 
-#### Profile Petugas Lapangan
+**4. Profile Petugas Lapangan**
+
 <img width="772" height="575" alt="image" src="https://github.com/user-attachments/assets/070ff365-17c5-400f-aa9b-a71aaebd9dea" />
 
 
 ### KASIR
-1. **Transaksi** — cari tagihan belum lunas, pilih, lalu **Proses Pembayaran** (tunai).
-2. **Bukti pembayaran** — dapat dicetak ulang dari riwayat.
+- **Transaksi** — cari tagihan belum lunas, pilih, lalu **Proses Pembayaran** (tunai).
+- **Bukti pembayaran** — dapat dicetak ulang dari riwayat.
 
-#### Menu Transaksi
+**1. Menu Transaksi**
 
 <img width="1630" height="890" alt="image" src="https://github.com/user-attachments/assets/627d52e8-9a76-4c5a-8340-569c51b2cde9" />
 
-#### Bukti Transaksi
+**2. Bukti Transaksi**
 
 <img width="616" height="657" alt="image" src="https://github.com/user-attachments/assets/14380149-4fe6-4a56-ba8a-3addfc7e07b9" />
 
-#### Riwayat Transaksi
+**3. Riwayat Transaksi**
+
 <img width="1623" height="877" alt="image" src="https://github.com/user-attachments/assets/5d78b2c8-9f95-40ed-991b-382b708307c2" />
 
  
 ### PELANGGAN
-1. **Beranda** — ringkasan pemakaian dan tagihan; tombol pintas *Lapor gangguan* & *Bayar tagihan*.
-2. **Tagihan & Riwayat kWh** — pilih tagihan lalu **Bayar Tagihan Terpilih**, konfirmasi pembayaran.
-3. **Lapor Gangguan** — **Buat Laporan Baru**, isi lokasi dan deskripsi, tentukan koordinat dengan **Lokasi Saya**, **Pilih di Peta**, atau manual, lalu **Kirim Laporan**. Pantau status di tabel.
+- **Beranda** — ringkasan pemakaian dan tagihan; tombol pintas *Lapor gangguan* & *Bayar tagihan*.
+- **Tagihan & Riwayat kWh** — pilih tagihan lalu **Bayar Tagihan Terpilih**, konfirmasi pembayaran.
+- **Lapor Gangguan** — **Buat Laporan Baru**, isi lokasi dan deskripsi, tentukan koordinat dengan **Lokasi Saya**, **Pilih di Peta**, atau manual, lalu **Kirim Laporan**. Pantau status di tabel.
 
-#### Beranda
+**1. Beranda**
+
 <img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/8693c1b8-7631-488e-b73e-0f05f103c16c" />
 
-#### Menu Tagihan
+**2. Menu Tagihan**
+
 <img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/77650279-af83-420e-a1d1-a2576dfd3c09" />
 
-#### Konfirmasi Pembayaran
+**3. Konfirmasi Pembayaran**
 
 <img width="610" height="598" alt="image" src="https://github.com/user-attachments/assets/51e852ec-91a1-428b-81b4-9f3f0a3a9f49" />
 
-#### Menu Laporan
+**4. Menu Laporan**
 <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/b12e2669-1daa-44d8-9a3e-e3a1f42840eb" />
 
-#### Membuat Laporan
+**5. Membuat Laporan**
 <img width="816" height="493" alt="image" src="https://github.com/user-attachments/assets/1a506a12-3769-47fc-b11c-dc4a520e77b2" />
 
-#### Lokasi
+**6. Lokasi**
 <img width="1016" height="826" alt="image" src="https://github.com/user-attachments/assets/1a954706-71e2-4aba-bdcc-af08154186e3" />
 
-#### Profile Pelanggan
+**7. Profile Pelanggan**
 <img width="770" height="626" alt="image" src="https://github.com/user-attachments/assets/e2f921d8-49f4-41b6-9fc7-9c86832eb8c5" />
 
 
